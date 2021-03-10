@@ -312,140 +312,96 @@ gg.toast ("processing.......")
 gg.clearResults()
 gg.setVisible(false)
 gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1711302260", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100000) 
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1711302006", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100000) 
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("582749752655872;620137442967552", gg.TYPE_QWORD)
 gg.refineNumber("582749752655872", gg.TYPE_QWORD)
-gg.getResults(50000)
-if gg.getResultCount() > 0 then
-bypass1 = "[√] Success"
-else
-bypass1 = "[X] Failed"
-end
+gg.getResults(50000) 
 gg.editAll("288233678981562368", gg.TYPE_QWORD)
 gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1718511986", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100000) 
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("565157566611456;566257078239232", gg.TYPE_QWORD)
 gg.refineNumber("565157566611456", gg.TYPE_QWORD)
-gg.getResults(50000)
-if gg.getResultCount() > 0 then
-bypass2 = "[√] Success"
-else
-bypass2 = "[X] Failed"
-end
+gg.getResults(50000) 
+gg.editAll("288233678981562368", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1986225490", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100000) 
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("562954248388607;578351706144768", gg.TYPE_QWORD)
+gg.refineNumber("562954248388607", gg.TYPE_QWORD)
+gg.getResults(50000) 
+gg.editAll("288233678981562368", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("911104607", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100000) 
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1734308723", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100000) 
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1735681395", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100000) 
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1718511967", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100000) 
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1734308723", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100000) 
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1986225522", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100000) 
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1734964063", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100000) 
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("4398046511104;544434349408256", gg.TYPE_QWORD)
+gg.refineNumber("4398046511104", gg.TYPE_QWORD)
+gg.getResults(50000) 
 gg.editAll("288233678981562368", gg.TYPE_QWORD)
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("133634;134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("133634", gg.TYPE_DWORD)
-gg.getResults(50000)
-if gg.getResultCount() > 0 then
-bypass3 = "[√] Success"
+gg.searchNumber("577,252,194,516,992;288,233,678,981,562,368", gg.TYPE_QWORD)
+gg.refineNumber("577,252,194,516,992", gg.TYPE_QWORD)
+gg.getResults(50000) 
+gg.editAll("288233678981562368", gg.TYPE_QWORD)
+gg.clearResults()
+gg.clearResults()
+gg.alert("Bypass Finished ")
 else
-bypass3 = "[X] Failed"
-end
-gg.editAll("|131842", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("132098;133635", gg.TYPE_DWORD)
-gg.refineNumber("132098", gg.TYPE_DWORD)
-gg.getResults(50000)
-if gg.getResultCount() > 0 then
-bypass4 = "[√] Success"
-else
-bypass4 = "[X] Failed"
-end
-gg.editAll("|131842", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("4096;135682", gg.TYPE_DWORD)
-gg.refineNumber("4096", gg.TYPE_DWORD)
-gg.getResults(50000)
-if gg.getResultCount() > 0 then
-bypass5 = "[√] Success"
-else
-bypass5 = "[X] Failed"
-end
-gg.editAll("|131842", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("131586", gg.TYPE_DWORD)
-gg.getResults(50000)
-if gg.getResultCount() > 0 then
-bypass6 = "[√] Success"
-else
-bypass6 = "[X] Failed"
-end
-gg.editAll("|131842", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("131842;132098", gg.TYPE_DWORD)
-gg.refineNumber("131842", gg.TYPE_DWORD)
-gg.getResults(50000)
-if gg.getResultCount() > 0 then
-bypass7 = "[√] Success"
-else
-bypass7 = "[X] Failed"
-end
-gg.editAll("|131842", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("133378;134914", gg.TYPE_DWORD)
-gg.refineNumber("133378", gg.TYPE_DWORD)
-gg.getResults(50000)
-if gg.getResultCount() > 0 then
-bypass8 = "[√] Success"
-else
-bypass8 = "[X] Failed"
-end
-gg.editAll("|131842", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("131331;133634", gg.TYPE_DWORD)
-gg.refineNumber("131331", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("|131842", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("133634;134658", gg.TYPE_DWORD)
-gg.refineNumber("133634", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("|131842", gg.TYPE_DWORD)
-if gg.getResultCount() > 0 then
-bypass9 = "[√] Success"
-else
-bypass9 = "[X] Failed"
-end
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("134658;134658", gg.TYPE_DWORD)
-gg.refineNumber("134658", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("|131842", gg.TYPE_DWORD)
-if gg.getResultCount() > 0 then
-bypass10 = "[√] Success"
-else
-bypass10 = "[X] Failed"
-end
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("4096;135682", gg.TYPE_DWORD)
-gg.refineNumber("4096", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("131842", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("131842;132098", gg.TYPE_DWORD)
-gg.refineNumber("131842", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("131842", gg.TYPE_DWORD)
-if gg.getResultCount() > 0 then
-bypass11 = "[√] Success"
-else
-bypass11 = "[X] Failed"
-end
-gg.clearResults()
-gg.alert("Bypass Finished , Anti-cheat status \n\n "..bypass1.." \n "..bypass2.." \n "..bypass3.." \n "..bypass4.." \n "..bypass5.." \n "..bypass6.." \n "..bypass7.." \n "..bypass8.." \n "..bypass9.." \n "..bypass10.." \n "..bypass1.." \n "..bypass11.." \n ")
-else
-gg.alert("Antiban already Activated!\n\nBypass Anti-cheat status \n\n "..bypass1.." \n "..bypass2.." \n "..bypass3.." \n "..bypass4.." \n "..bypass5.." \n "..bypass6.." \n "..bypass7.." \n "..bypass8.." \n "..bypass9.." \n "..bypass10.." \n "..bypass1.." \n "..bypass11.." \n ")
+gg.alert("Antiban already Activated!")
 end
 end
 
