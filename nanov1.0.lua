@@ -59,6 +59,7 @@ end
 
 function cheatsmenu()
 LR = gg.multiChoice({
+"[•]      WH+CH",
 "[•]      LessRecoil",
 "[•]      Antana",
 "[•]      MagicBullet",
@@ -69,15 +70,16 @@ LR = gg.multiChoice({
 "[<~]  Back ",
 },nil,'        [Home/Cheats Menu]') 
 if LR == nill then else 
-if LR[1] == true then recoil() end
-if LR[2] == true then antana() end
-if LR[3] == true then dv1() end
-if LR[4] == true then aim() end
-if LR[5] == true then sp1() end
-if LR[6] == true then ipad() end
-if LR[7] == true then grass() end
-if LR[8] == true then home() end
-if LR[9] == true then off() end
+if LR[1] == true then wch() end
+if LR[2] == true then recoil() end
+if LR[3] == true then antana() end
+if LR[4] == true then dv1() end
+if LR[5] == true then aim() end
+if LR[6] == true then sp1() end
+if LR[7] == true then ipad() end
+if LR[8] == true then grass() end
+if LR[9] == true then home() end
+if LR[10] == true then off() end
 end
 end
 
@@ -167,7 +169,32 @@ gg.toast("No grass Activated")
 end
 
 
-
+function wch()
+gg.clearResults()
+gg.setRanges(gg.REGION_VIDEO)
+gg.searchNumber("2325053844951662592", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 0 ]]
+gg.getResults(7)
+--[[ count: 0 ]]
+gg.editAll("2325053845000945664", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_VIDEO)
+gg.searchNumber("-4647714814372610048", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 0 ]]
+gg.refineAddress("9B0", -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 0 ]]
+gg.getResults(40)
+--[[ count: 0 ]]
+gg.editAll("-4647714814323326976", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_VIDEO)
+gg.searchNumber("5129680411722522633", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+--[[ found: 0 ]]
+gg.getResults(63825)
+--[[ count: 0 ]]
+gg.editAll("5129680411722514439", gg.TYPE_QWORD)
+gg.clearResults()
+end
 
 
 
