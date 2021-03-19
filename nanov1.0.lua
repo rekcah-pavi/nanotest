@@ -38,7 +38,7 @@ menuA=gg.choice({
 "[•]      Patch Anticheat Menu",
 "[•]      Cheats Menu",
 "[×]     Quit "
-},nil,'        [NanoLite V1.0 By Mr.Groot]') 
+},nil,'        [NanoLite V1.1By Mr.Groot]') 
 
 
 if menuA == 1 then 
@@ -310,96 +310,219 @@ if BA == "a" then
 BA = "b"
 gg.toast ("processing.......")
 gg.clearResults()
-gg.setVisible(false)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("1711302260", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100000) 
-gg.editAll("0", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("1711302006", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100000) 
-gg.editAll("0", gg.TYPE_FLOAT)
-gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("582749752655872;620137442967552", gg.TYPE_QWORD)
 gg.refineNumber("582749752655872", gg.TYPE_QWORD)
-gg.getResults(50000) 
-gg.editAll("288233678981562368", gg.TYPE_QWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("1718511986", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100000) 
-gg.editAll("0", gg.TYPE_FLOAT)
+gg.getResults(50000)
+gg.editAll("288232579469934592", gg.TYPE_QWORD)
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("565157566611456;566257078239232", gg.TYPE_QWORD)
 gg.refineNumber("565157566611456", gg.TYPE_QWORD)
-gg.getResults(50000) 
-gg.editAll("288233678981562368", gg.TYPE_QWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("1986225490", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100000) 
-gg.editAll("0", gg.TYPE_FLOAT)
+gg.getResults(50000)
+gg.editAll("288232579469934592", gg.TYPE_QWORD)
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("562954248388607;578351706144768", gg.TYPE_QWORD)
-gg.refineNumber("562954248388607", gg.TYPE_QWORD)
-gg.getResults(50000) 
-gg.editAll("288233678981562368", gg.TYPE_QWORD)
+gg.searchNumber("577252194516992;288233678981562368", gg.TYPE_QWORD)
+gg.refineNumber("577252194516992", gg.TYPE_QWORD)
+gg.getResults(50000)
+gg.editAll("288232579469934592", gg.TYPE_QWORD)
 gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("911104607", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100000) 
-gg.editAll("0", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("1734308723", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100000) 
-gg.editAll("0", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("1735681395", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100000) 
-gg.editAll("0", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("1718511967", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100000) 
-gg.editAll("0", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("1734308723", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100000) 
-gg.editAll("0", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("1986225522", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100000) 
-gg.editAll("0", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("1734964063", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100000) 
-gg.editAll("0", gg.TYPE_FLOAT)
+gg.getRangesList("libUE4.so")
+gg.setValues({ -- table(1dcc520)
+	[1] = { -- table(5cfded9)
+		['address'] = 3295277436.0,
+		['flags'] = 4, -- gg.TYPE_DWORD
+		['value'] = 67109633,
+	},
+})
+gg.getRangesList("libUE4.so")
+gg.setValues({ -- table(22bb302)
+	[1] = { -- table(2b20413)
+		['address'] = 3295277384.0,
+		['flags'] = 4, -- gg.TYPE_DWORD
+		['value'] = 67109633,
+	},
+})
+gg.getRangesList("libUE4.so")
+gg.setValues({ -- table(db9aa14)
+	[1] = { -- table(957b2bd)
+		['address'] = 3295277364.0,
+		['flags'] = 4, -- gg.TYPE_DWORD
+		['value'] = 67109633,
+	},
+})
+gg.getRangesList("libUE4.so")
+gg.setValues({ -- table(44926d6)
+	[1] = { -- table(c7eed57)
+		['address'] = 3295277388.0,
+		['flags'] = 4, -- gg.TYPE_DWORD
+		['value'] = 67109633,
+	},
+})
+gg.getRangesList("libUE4.so")
+gg.setValues({ -- table(ff51c8)
+	[1] = { -- table(50f261)
+		['address'] = 3295277412.0,
+		['flags'] = 4, -- gg.TYPE_DWORD
+		['value'] = 67109633,
+	},
+})
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("4398046511104;544434349408256", gg.TYPE_QWORD)
-gg.refineNumber("4398046511104", gg.TYPE_QWORD)
-gg.getResults(50000) 
+gg.searchNumber("196,864~590336;67109377;67109633;67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResultsCount()
+gg.refineNumber("196,864~590336", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(5000)
 gg.editAll("288233678981562368", gg.TYPE_QWORD)
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("577,252,194,516,992;288,233,678,981,562,368", gg.TYPE_QWORD)
-gg.refineNumber("577,252,194,516,992", gg.TYPE_QWORD)
-gg.getResults(50000) 
+gg.searchNumber("65,795~590336;67109377;67109633;67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResultsCount()
+gg.refineNumber("65,795~590336", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(5000)
 gg.editAll("288233678981562368", gg.TYPE_QWORD)
 gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("4096;135682", gg.TYPE_DWORD)
+gg.getResultsCount()
+gg.refineNumber("4096", gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.editAll("288233678981562368", gg.TYPE_QWORD)
 gg.clearResults()
-gg.alert("Bypass Finished ")
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("134658;134658", gg.TYPE_DWORD)
+gg.getResultsCount()
+gg.refineNumber("134658", gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.editAll("288233678981562368", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.setVisible(false)
+gg.searchNumber("131586~135682;131330", gg.TYPE_DWORD)
+gg.setVisible(false)
+gg.refineNumber("131586", gg.TYPE_DWORD)
+gg.setVisible(false)
+gg.getResults(50000)
+gg.editAll("288232579469934592", gg.TYPE_QWORD)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("582749752655872;620137442967552", gg.TYPE_QWORD)
+gg.refineNumber("582749752655872", gg.TYPE_QWORD)
+gg.getResults(50000)
+gg.editAll("288232579469934592", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("565157566611456;566257078239232", gg.TYPE_QWORD)
+gg.refineNumber("565157566611456", gg.TYPE_QWORD)
+gg.getResults(50000)
+gg.editAll("288232579469934592", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("577252194516992;288233678981562368", gg.TYPE_QWORD)
+gg.refineNumber("577252194516992", gg.TYPE_QWORD)
+gg.getResults(50000)
+gg.editAll("288232579469934592", gg.TYPE_QWORD)
+gg.clearResults()
+gg.getRangesList("libUE4.so")
+gg.setValues({ -- table(7191756)
+	[1] = { -- table(d4f53d7)
+		['address'] = 3295277436.0,
+		['flags'] = 4, -- gg.TYPE_DWORD
+		['value'] = 67109633,
+	},
+})
+gg.getRangesList("libUE4.so")
+gg.setValues({ -- table(7fae6cf)
+	[1] = { -- table(b41885c)
+		['address'] = 3295277384.0,
+		['flags'] = 4, -- gg.TYPE_DWORD
+		['value'] = 67109633,
+	},
+})
+gg.getRangesList("libUE4.so")
+gg.setValues({ -- table(1c486f4)
+	[1] = { -- table(683fe1d)
+		['address'] = 3295277364.0,
+		['flags'] = 4, -- gg.TYPE_DWORD
+		['value'] = 67109633,
+	},
+})
+gg.getRangesList("libUE4.so")
+gg.setValues({ -- table(85d3d5)
+	[1] = { -- table(b4447ea)
+		['address'] = 3295277388.0,
+		['flags'] = 4, -- gg.TYPE_DWORD
+		['value'] = 67109633,
+	},
+})
+gg.getRangesList("libUE4.so")
+gg.setValues({ -- table(691ea42)
+	[1] = { -- table(28d0a53)
+		['address'] = 3295277412.0,
+		['flags'] = 4, -- gg.TYPE_DWORD
+		['value'] = 67109633,
+	},
+})
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("582749752655872;620137442967552", gg.TYPE_QWORD)
+gg.refineNumber("582749752655872", gg.TYPE_QWORD)
+gg.getResults(50000)
+gg.editAll("288233678981562368", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("565157566611456;566257078239232", gg.TYPE_QWORD)
+gg.refineNumber("565157566611456", gg.TYPE_QWORD)
+gg.getResults(50000)
+gg.editAll("288233678981562368", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("577252194516992;288233678981562368", gg.TYPE_QWORD)
+gg.refineNumber("577252194516992", gg.TYPE_QWORD)
+gg.getResults(50000)
+gg.editAll("288233678981562368", gg.TYPE_QWORD)
+gg.clearResults()
+gg.getRangesList("libUE4.so")
+gg.setValues({ -- table(de72d7c)
+	[1] = { -- table(5325605)
+		['address'] = 3295277436.0,
+		['flags'] = 4, -- gg.TYPE_DWORD
+		['value'] = 67109633,
+	},
+})
+gg.getRangesList("libUE4.so")
+gg.setValues({ -- table(eda40bd)
+	[1] = { -- table(1d556b2)
+		['address'] = 3295277384.0,
+		['flags'] = 4, -- gg.TYPE_DWORD
+		['value'] = 67109633,
+	},
+})
+gg.getRangesList("libUE4.so")
+gg.setValues({ -- table(5cd0a0a)
+	[1] = { -- table(f18827b)
+		['address'] = 3295277364.0,
+		['flags'] = 4, -- gg.TYPE_DWORD
+		['value'] = 67109633,
+	},
+})
+gg.getRangesList("libUE4.so")
+gg.setValues({ -- table(21ec5f3)
+	[1] = { -- table(45c82b0)
+		['address'] = 3295277388.0,
+		['flags'] = 4, -- gg.TYPE_DWORD
+		['value'] = 67109633,
+	},
+})
+gg.getRangesList("libUE4.so")
+gg.setValues({ -- table(4d1f7c8)
+	[1] = { -- table(395a061)
+		['address'] = 3295277412.0,
+		['flags'] = 4, -- gg.TYPE_DWORD
+		['value'] = 67109633,
+	},
+})
+gg.alert("Bypass v1.1 Finished ")
 else
 gg.alert("Antiban already Activated!")
 end
