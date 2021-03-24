@@ -38,7 +38,7 @@ menuA=gg.choice({
 "[•]      Patch Anticheat Menu",
 "[•]      Cheats Menu",
 "[×]     Quit "
-},nil,'        [NanoLite V1.1By Mr.Groot]') 
+},nil,'        [NanoLite V1.2By Mr.Groot]') 
 
 
 if menuA == 1 then 
@@ -59,7 +59,7 @@ end
 
 function cheatsmenu()
 LR = gg.multiChoice({
-"[•]      WH+CH",
+"[•]      WH+CH(SD)",
 "[•]      LessRecoil",
 "[•]      Antana",
 "[•]      MagicBullet",
@@ -67,6 +67,7 @@ LR = gg.multiChoice({
 "[•]      Player Speed Up",
 "[•]      Ipad View",
 "[•]      No Grass",
+"[•]      Black Sky(Sd)",
 "[<~]  Back ",
 },nil,'        [Home/Cheats Menu]') 
 if LR == nill then else 
@@ -78,8 +79,8 @@ if LR[5] == true then aim() end
 if LR[6] == true then sp1() end
 if LR[7] == true then ipad() end
 if LR[8] == true then grass() end
-if LR[9] == true then home() end
-if LR[10] == true then off() end
+if LR[9] == true then black() end
+if LR[10] == true then home() end
 end
 end
 
@@ -166,6 +167,18 @@ ng1 = gg.getResults(2)
 gg.editAll("2.0", gg.TYPE_FLOAT) 
 ng01 = gg.getResults(2) 
 gg.toast("No grass Activated") 
+end
+
+
+function black()
+gg.clearResults() 
+gg.setRanges(gg.REGION_ANONYMOUS) 
+gg.searchNumber("3.4028235e38;0.05000000075::5", gg.TYPE_FLOAT, false) 
+gg.searchNumber("0.05000000075", gg.TYPE_FLOAT, false) 
+gg.getResults(30) 
+gg.editAll("100", gg.TYPE_FLOAT) 
+gg.clearResults() 
+gg.toast('Black Sky')
 end
 
 
