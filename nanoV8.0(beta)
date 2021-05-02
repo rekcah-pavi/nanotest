@@ -1,0 +1,720 @@
+------------------------------------------------------------------
+
+
+  
+
+
+
+
+BA = "a"
+example = function(x) local r = math.random(1,9) return x[r] end
+a1 = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"} a2 = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"} a3 = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"} a4 = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"} a5 = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"} a6 = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"} a7 = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"} a8 = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"} a9 = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"} a10 = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"} a11 = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"} a12 = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"} a13 = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"} a14 = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"} a15 = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"} a16 = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"}
+rk1 = example(a1) rk2 = example(a2) rk3 = example(a3) rk4 = example(a4) rk5 = example(a5) rk6 = example(a6) rk7 = example(a7) rk8 = example(a8) rk9 = example(a9) rk10 = example(a10) rk11 = example(a11) rk12 = example(a12) rk13 = example(a13) rk14 = example(a14) rk15 = example(a15) rk16 = example(a16)
+local a = math.random(1,9) aa = a local b = math.random(1,9) ab = b local c = math.random(1,9) ac = c local d = math.random(1,9) ad = d local e = math.random(1,9) ae = e local f = math.random(1,9) af = f local g = math.random(1,9) ag = g local h = math.random(1,9) ah = h local i = math.random(1,9) ai = i local j = math.random(1,9) aj = j local k = math.random(1,9) ak = k local l = math.random(1,9) al = l local m = math.random(1,9) am = m local n = math.random(1,9) an = n local o = math.random(1,9) ao = o local p = math.random(1,9) ap = p local q = math.random(1,9) aq = q
+g1 = "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>", "\n"
+g2 = "<map>", "\n"     
+g3 = "<string name=\"random\"></string>", "\n"
+g4 = "    <string name=\"install\">"..aq..""..ap..""..rk1..""..ad..""..ad..""..ad..""..ab..""..rk3.."-002"..ab.."-4526-8513-1956b16b3387</string>", "\n"
+g5= "    <string name=\"uuid\">"..aa..""..rk1..""..ab..""..rk2..""..ac..""..rk3..""..ad..""..rk4..""..ae..""..rk5..""..af..""..rk6..""..ag..""..rk7..""..ah..""..rk8..""..ai..""..rk9..""..aj..""..rk10..""..ak..""..rk11..""..al..""..rk12..""..am..""..rk13..""..an..""..rk14..""..ao..""..rk15..""..ap..""..aq.."</string>", "\n"
+g6 = "</map>", "\n"
+function split(szFullString, szSeparator) local nFindStartIndex = 1 local nSplitIndex = 1 local nSplitArray = {} while true do local nFindLastIndex = string.find (szFullString, szSeparator, nFindStartIndex) if not nFindLastIndex then nSplitArray[nSplitIndex] = string.sub(szFullString, nFindStartIndex, string.len (szFullString)) break end nSplitArray[nSplitIndex] = string.sub (szFullString, nFindStartIndex, nFindLastIndex - 1) nFindStartIndex = nFindLastIndex + string.len (szSeparator) nSplitIndex = nSplitIndex + 1 end return nSplitArray end function xgxc(szpy, qmxg) for x = 1, #(qmxg) do xgpy = szpy + qmxg[x]["offset"] xglx = qmxg[x]["type"] xgsz = qmxg[x]["value"] xgdj = qmxg[x]["freeze"] if xgdj == nil or xgdj == "" then gg.setValues({[1] = {address = xgpy, flags = xglx, value = xgsz}}) else gg.addListItems({[1] = {address = xgpy, flags = xglx, freeze = xgdj, value = xgsz}}) end xgsl = xgsl + 1 xgjg = true end end function xqmnb(qmnb) gg.clearResults() gg.setRanges(qmnb[1]["memory"]) gg.searchNumber(qmnb[3]["value"], qmnb[3]["type"]) if gg.getResultCount() == 0 then gg.toast(qmnb[2]["name"] .. "开启失败") else gg.refineNumber(qmnb[3]["value"], qmnb[3]["type"]) gg.refineNumber(qmnb[3]["value"], qmnb[3]["type"]) gg.refineNumber(qmnb[3]["value"], qmnb[3]["type"]) if gg.getResultCount() == 0 then gg.toast(qmnb[2]["name"] .. "开启失败") else sl = gg.getResults(999999) sz = gg.getResultCount() xgsl = 0 if sz > 999999 then sz = 999999 end for i = 1, sz do pdsz = true for v = 4, #(qmnb) do if pdsz == true then pysz = {} pysz[1] = {} pysz[1].address = sl[i].address + qmnb[v]["offset"] pysz[1].flags = qmnb[v]["type"] szpy = gg.getValues(pysz) pdpd = qmnb[v]["lv"] .. ";" .. szpy[1].value szpd = split(pdpd, ";") tzszpd = szpd[1] pyszpd = szpd[2] if tzszpd == pyszpd then pdjg = true pdsz = true else pdjg = false pdsz = false end end end if pdjg == true then szpy = sl[i].address xgxc(szpy, qmxg) end end if xgjg == true then gg.toast(qmnb[2]["name"] .. "开启成功，一共修改" .. xgsl .. "条数据") else gg.toast(qmnb[2]["name"] .. "未搜索到数据，开启失败") end end end end function SearchWrite(Search, Write, Type) gg.clearResults() gg.setVisible(false) gg.searchNumber(Search[1][1], Type) local count = gg.getResultCount() local result = gg.getResults(count) gg.clearResults() local data = {} local base = Search[1][2] if (count > 0) then for i, v in ipairs(result) do v.isUseful = true end for k=2, #Search do local tmp = {} local offset = Search[k][2] - base local num = Search[k][1] for i, v in ipairs(result) do tmp[#tmp+1] = {} tmp[#tmp].address = v.address + offset tmp[#tmp].flags = v.flags end tmp = gg.getValues(tmp) for i, v in ipairs(tmp) do if ( tostring(v.value) ~= tostring(num) ) then result[i].isUseful = false end end end for i, v in ipairs(result) do if (v.isUseful) then data[#data+1] = v.address end end if (#data > 0) then local t = {} local base = Search[1][2] for i=1, #data do for k, w in ipairs(Write) do offset = w[2] - base t[#t+1] = {} t[#t].address = data[i] + offset t[#t].flags = Type t[#t].value = w[1] if (w[3] == true) then local item = {} item[#item+1] = t[#t] item[#item].freeze = true gg.addListItems(item) end end end gg.setValues(t) gg.toast("开启成功，一共修改"..#t.."条数据") gg.addListItems(t) else gg.toast("未搜索到数据，开启失败", false) return false end else gg.toast("Not Found") return false end end
+function setvalue(address,flags,value) local tt={} tt[1]={} tt[1].address=address tt[1].flags=flags tt[1].value=value gg.setValues(tt) end
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------
+GROOT = 1
+ function home()
+menuA=gg.choice({
+"[•]      Patch Anticheat Menu",
+"[•]      Cheats Menu",
+"[×]     Quit "
+},nil,'        [NanoLite V8.0(beta)By Mr.Groot]') 
+
+
+if menuA == 1 then 
+patchanticheat()
+end
+if menuA == 2 then 
+cheatsmenu()
+end 
+if menuA == 3 then 
+os.exit() 
+end 
+GROOT = 2
+end
+-----------------------------Main menu End------------------
+
+------------------------------Sub Menu------------------
+
+
+function cheatsmenu()
+LR = gg.multiChoice({
+"[•]      WH+CH(SD)",
+"[•]      LessRecoil",
+"[•]      Antana",
+"[•]      SitScope",
+"[•]      AimBot+MagicBullet",
+"[•]      Player Speed Up",
+"[•]      Ipad View",
+"[•]      No Grass",
+"[•]      Black Sky(Sd)",
+"[<~]  Back ",
+},nil,'        [Home/Cheats Menu]') 
+if LR == nill then else 
+if LR[1] == true then wch() end
+if LR[2] == true then recoil() end
+if LR[3] == true then antana() end
+if LR[4] == true then dv1() end
+if LR[5] == true then aim() end
+if LR[6] == true then sp1() end
+if LR[7] == true then ipad() end
+if LR[8] == true then grass() end
+if LR[9] == true then black() end
+if LR[10] == true then home() end
+end
+end
+
+
+
+
+
+
+function patchanticheat()
+menuB=gg.choice({
+"[*]     Bypass Anticheat",
+"[*]     Fix GameCrash",
+"[*]     Reset GuestAccount",
+"[<~]  Back "
+},nil,'        [Home/Patch Anticheat Menu]') 
+if menuB == 1 then 
+bypassanticheat()
+end
+if menuB == 2 then 
+fixcrash()
+end
+if menuB == 3 then
+resetguest()
+end
+if menuB == 4 then 
+home()
+end
+end 
+
+
+
+
+
+
+
+function resetguest()
+menuC=gg.choice({
+"[*]     Reset Globel",
+"[*]     Reset Kr",
+"[<~]  Back "
+},nil,'        [Home/Patch Anticheat Menu/Reset GuestAccount]') 
+if menuC == 1 then 
+resetglobel()
+end
+if menuC ==2 then
+resetkr()
+end
+if menuC ==3 then
+patchanticheat()
+end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+function grass()
+gg.clearResults() 
+gg.setRanges(gg.REGION_ANONYMOUS) 
+gg.searchNumber("0.000005;0.000005", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
+gg.searchNumber("0.000005", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
+ng1 = gg.getResults(100) 
+gg.editAll("2.0", gg.TYPE_FLOAT) 
+ng01 = gg.getResults(100) 
+gg.toast("No grass Activated") 
+end
+
+
+function black()
+gg.clearResults() 
+gg.setRanges(gg.REGION_ANONYMOUS) 
+gg.searchNumber("3.4028235e38;0.05000000075::5", gg.TYPE_FLOAT, false) 
+gg.searchNumber("0.05000000075", gg.TYPE_FLOAT, false) 
+gg.getResults(30) 
+gg.editAll("100", gg.TYPE_FLOAT) 
+gg.clearResults() 
+gg.toast('Black Sky')
+end
+
+
+function wch()
+gg.clearResults()
+gg.setRanges(gg.REGION_VIDEO)
+gg.searchNumber("2325053844951662592", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 0 ]]
+gg.getResults(7)
+--[[ count: 0 ]]
+gg.editAll("2325053845000945664", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_VIDEO)
+gg.searchNumber("-4647714814372610048", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 0 ]]
+gg.refineAddress("9B0", -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 0 ]]
+gg.getResults(40)
+--[[ count: 0 ]]
+gg.editAll("-4647714814323326976", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_VIDEO)
+gg.searchNumber("5129680411722522633", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+--[[ found: 0 ]]
+gg.getResults(63825)
+--[[ count: 0 ]]
+gg.editAll("5129680411722514439", gg.TYPE_QWORD)
+gg.clearResults()
+end
+
+
+
+function ipad()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("220;178;15", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("220", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+wid1 = gg.getResults(300)
+gg.editAll("438", gg.TYPE_FLOAT)
+wid01 = gg.getResults(300)
+gg.clearResults()
+gg.toast("Ipad view Activated")
+end
+
+
+
+
+function sp1()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("0;7.0064923e-45;1;100;1;2,500,000,000.0;0.10000000149;88", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("5", gg.TYPE_FLOAT)
+gg.toast("Player speed activated")
+end
+
+
+
+
+function aim()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 2 ]]
+gg.getResults(100)
+--[[ count: 2 ]]
+gg.editAll("300;305", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("MagicBullet")
+
+end
+
+function recoil()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber("-309056968;-298841599;-309061065", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("-298841599", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(5)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.clearResults()
+gg.searchNumber("0.2~0.3;53;30;1::", gg.TYPE_FLOAT)
+gg.refineNumber("0.2~0.3;1::", gg.TYPE_FLOAT)
+--[[ found: 194 ]]
+gg.getResults(1000)
+--[[ count: 194 ]]
+gg.editAll("1.4012985e-45", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Less recoil Activated")
+end
+
+
+function antana()
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("88.50576019287F;87.27782440186F;-100.91194152832F;1F::13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 12 ]]
+gg.searchNumber("88.50576019287F;87.27782440186F;1F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 9 ]]
+gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+--[[ count: 9 ]]
+gg.editAll("1.96875;1.96875;999;1.96875;1.96875;999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.clearResults()
+gg.toast("Antenna Activated")
+end
+
+
+function fixcrash()
+  gg.sleep(120)
+  os.rename ("/data/data/com.tencent.ig/app_crashrecord","/data/data/com.tencent.ig/.a")
+  os.rename ("/data/data/com.tencent.ig/files","/data/data/com.tencent.ig/.b")
+  io.open("/data/data/com.tencent.ig/app_crashrecord", "w")
+  io.open("/data/data/com.tencent.ig/files", "w")
+  gg.alert("Done\nStill crash? Active  Hide game gurdian from game and select 1,2,3,4 ")
+end
+
+
+
+function resetglobel()
+  glzgr, err = io.open("/data/data/com.tencent.ig/shared_prefs/device_id.xml", "rb")
+  if  glzgr then
+      file = io.open("/data/data/com.tencent.ig/shared_prefs/device_id.xml", "w")
+      file:write(""..g1.."\n")
+      file:write(""..g2.."\n")
+      file:write(""..g3.."\n")
+      file:write(""..g4.."\n")
+      file:write(""..g5.."\n")
+      file:write(""..g6.."\n")
+      gg.alert ("Successfully changed guest account \nRestart game to rake effect")
+  else
+     gg.alert ("Falied to access, are you root?")
+  end
+end
+
+-------------
+function resetkr()
+  glzgr, err = io.open("/data/data/com.pubg.krmobilegroot/data/data/user/0/com.pubg.krmobile/shared_prefs/device_id.xml", "rb")
+  if  glzgr then
+      file = io.open("/data/data/com.pubg.krmobilegroot/data/data/user/0/com.pubg.krmobile/shared_prefs/device_id.xml", "w")
+      file:write(""..g1.."\n")
+      file:write(""..g2.."\n")
+      file:write(""..g3.."\n")
+      file:write(""..g4.."\n")
+      file:write(""..g5.."\n")
+      file:write(""..g6.."\n")
+      gg.alert ("Successfully changed guest account \nRestart game to rake effect")
+  else
+     gg.alert ("Falied to access, are you root?")
+  end
+end
+
+----------------
+
+function dv1()
+gg.clearResults()
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("4848124999984742400", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 889 ]]
+gg.getResults(6969)
+--[[ count: 889 ]]
+gg.editAll("4138667321167981973", gg.TYPE_QWORD)
+gg.clearResults()
+--[[ return: 1 ]]
+--[[ return: 0 ]]
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("4138667321167981973", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 1053 ]]
+gg.refineNumber("4138667321167981973", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 1006 ]]
+gg.refineNumber("4138667321167981973", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 1006 ]]
+gg.getResults(1401)
+--[[ count: 1006 ]]
+gg.editAll("4848124999984742400", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("-4767057191653227520", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 0 ]]
+gg.refineNumber("-4767057191653227520", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 0 ]]
+gg.refineNumber("-4767057191653227520", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 0 ]]
+gg.getResults(1401)
+--[[ count: 0 ]]
+gg.editAll("-4767057191527907328", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.clearResults()
+gg.searchNumber("18.38787841797;0.53867292404;-3.42232513428;1.77635705e-15:13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 4 ]]
+gg.refineNumber("18.38787841797", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 1 ]]
+gg.getResults(2805)
+--[[ count: 1 ]]
+gg.editAll("130.5419921875", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.clearResults()
+gg.toast("SitScope Activated")
+end
+
+
+
+
+
+function bypassanticheat()
+gg.clearResults()
+if BA == "a" then
+BA = "b"
+gg.toast ("processing.......")
+
+
+
+
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("578351706144768;564058054983680", gg.TYPE_QWORD)
+--[[ found: 332 ]]
+gg.refineNumber("578351706144768", gg.TYPE_QWORD)
+aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+--[[ count: 150 ]]
+gg.editAll("288232579469934592", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("582749752655872;620137442967552", gg.TYPE_QWORD)
+--[[ found: 222 ]]
+gg.refineNumber("582749752655872", gg.TYPE_QWORD)
+--[[ found: 103 ]]
+aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+--[[ count: 103 ]]
+gg.editAll("288232579469934592", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("565157566611456;566257078239232", gg.TYPE_QWORD)
+--[[ found: 104 ]]
+gg.refineNumber("565157566611456", gg.TYPE_QWORD)
+--[[ found: 52 ]]
+aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+--[[ count: 52 ]]
+gg.editAll("288232579469934592", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("17,592,186,044,416;582749752655872", gg.TYPE_QWORD)
+--[[ found: 47 ]]
+gg.refineNumber("17,592,186,044,416", gg.TYPE_QWORD)
+--[[ found: 21 ]]
+aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+--[[ count: 21 ]]
+gg.editAll("566257078239232", gg.TYPE_QWORD)
+gg.clearResults()
+gg.searchNumber("577252194516992;288232579469934592", gg.TYPE_QWORD)
+--[[ found: 28 ]]
+gg.refineNumber("577252194516992", gg.TYPE_QWORD)
+--[[ found: 14 ]]
+aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+--[[ count: 14 ]]
+gg.editAll("288232579469934592", gg.TYPE_QWORD)
+gg.clearResults()
+gg.searchNumber("578351706144768;578351706144768", gg.TYPE_QWORD)
+--[[ found: 119 ]]
+gg.refineNumber("578351706144768", gg.TYPE_QWORD)
+--[[ found: 119 ]]
+aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+--[[ count: 119 ]]
+gg.editAll("288232579469934592", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("911104607", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 1209 ]]
+aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+--[[ count: 1209 ]]
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1734308723", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 4 ]]
+aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+--[[ count: 4 ]]
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1735681395", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 4 ]]
+aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+--[[ count: 4 ]]
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1718511967", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 231 ]]
+aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+--[[ count: 231 ]]
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1734308723", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 4 ]]
+aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+--[[ count: 4 ]]
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1986225522", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 54 ]]
+aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+--[[ count: 54 ]]
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("1734964063", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 90 ]]
+aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+--[[ count: 90 ]]
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.clearList()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("132098;133635", gg.TYPE_DWORD)
+--[[ found: 2 ]]
+gg.refineNumber("132098", gg.TYPE_DWORD)
+--[[ found: 1 ]]
+aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+--[[ count: 1 ]]
+gg.editAll("131842", gg.TYPE_DWORD)
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("131075;131074", gg.TYPE_DWORD)
+--[[ found: 37 ]]
+gg.refineNumber("131074", gg.TYPE_DWORD)
+--[[ found: 29 ]]
+aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+--[[ count: 29 ]]
+gg.editAll("131842", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("196610;131076", gg.TYPE_DWORD)
+--[[ found: 12 ]]
+gg.refineNumber("196610", gg.TYPE_DWORD)
+--[[ found: 6 ]]
+aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+--[[ count: 6 ]]
+gg.editAll("131842", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("331107;196608", gg.TYPE_DWORD)
+--[[ found: 5 ]]
+gg.refineNumber("196608", gg.TYPE_DWORD)
+--[[ found: 2 ]]
+aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+--[[ count: 2 ]]
+gg.editAll("131842", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("262144;196611", gg.TYPE_DWORD)
+--[[ found: 10 ]]
+gg.refineNumber("262144", gg.TYPE_DWORD)
+--[[ found: 5 ]]
+aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+--[[ count: 5 ]]
+gg.editAll("131842", gg.TYPE_DWORD)
+gg.clearList()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("70,368,744,177,664;288,232,579,469,934,592", gg.TYPE_QWORD)
+--[[ found: 6 ]]
+gg.refineNumber("70,368,744,177,664", gg.TYPE_QWORD)
+--[[ found: 3 ]]
+aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+--[[ count: 3 ]]
+gg.editAll("288232579469934592", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("577252194516992;288233678981562368", gg.TYPE_QWORD)
+--[[ found: 335 ]]
+gg.refineNumber("577252194516992", gg.TYPE_QWORD)
+--[[ found: 68 ]]
+aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+--[[ count: 68 ]]
+gg.editAll("288232579469934592", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("133634;134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 44 ]]
+gg.refineNumber("133634", gg.TYPE_DWORD)
+--[[ found: 24 ]]
+aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+--[[ count: 24 ]]
+gg.editAll("288232579469934592", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("131586", gg.TYPE_DWORD)
+--[[ found: 642 ]]
+aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+--[[ count: 642 ]]
+gg.editAll("288232579469934592", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("4096;135682", gg.TYPE_DWORD)
+--[[ found: 132 ]]
+gg.refineNumber("4096", gg.TYPE_DWORD)
+--[[ found: 68 ]]
+aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+--[[ count: 68 ]]
+gg.editAll("288232579469934592", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("131842;132098", gg.TYPE_DWORD)
+--[[ found: 94 ]]
+gg.refineNumber("131842", gg.TYPE_DWORD)
+--[[ found: 47 ]]
+aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+--[[ count: 47 ]]
+gg.editAll("288232579469934592", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("133378;134914", gg.TYPE_DWORD)
+--[[ found: 211 ]]
+gg.refineNumber("133378", gg.TYPE_DWORD)
+--[[ found: 114 ]]
+aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+--[[ count: 114 ]]
+gg.editAll("288232579469934592", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("131331;133634", gg.TYPE_DWORD)
+--[[ found: 20 ]]
+gg.refineNumber("131331", gg.TYPE_DWORD)
+--[[ found: 10 ]]
+aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+--[[ count: 10 ]]
+gg.editAll("288232579469934592", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("133634;134658", gg.TYPE_DWORD)
+--[[ found: 20 ]]
+gg.refineNumber("133634", gg.TYPE_DWORD)
+--[[ found: 13 ]]
+aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+--[[ count: 13 ]]
+gg.editAll("288232579469934592", gg.TYPE_DWORD)
+gg.clearResults()
+
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber(":Tss", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 453 ]]
+gg.getResults(10000, nil, nil, nil, nil, nil, nil, nil, nil)
+--[[ count: 453 ]]
+gg.editAll(":", gg.TYPE_BYTE)
+gg.clearResults()
+gg.searchNumber(":tss", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 453 ]]
+gg.getResults(10000, nil, nil, nil, nil, nil, nil, nil, nil)
+--[[ count: 453 ]]
+gg.editAll(":", gg.TYPE_BYTE)
+gg.clearResults()
+gg.searchNumber(":TSS", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 453 ]]
+gg.getResults(10000, nil, nil, nil, nil, nil, nil, nil, nil)
+--[[ count: 453 ]]
+gg.editAll(":", gg.TYPE_BYTE)
+gg.clearResults()
+
+gg.searchNumber(":been", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 453 ]]
+gg.getResults(10000, nil, nil, nil, nil, nil, nil, nil, nil)
+--[[ count: 453 ]]
+gg.editAll(":", gg.TYPE_BYTE)
+gg.clearResults()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gg.alert("Bypass v8.0 Finished ")
+else
+gg.alert("Antiban already Activated!")
+end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------
+while true do
+   if gg.isVisible(true) then
+   GROOT = 1
+   gg.setVisible(false)
+   if BA == "a" then
+      gg.toast ("[*] Warning!  Aniban Not Activated...")
+   else
+      gg.toast ("mr.groot")
+    end
+   end
+   if GROOT == 1 then
+   home()
+   end
+end
+--------------------------
+
+      
+      
