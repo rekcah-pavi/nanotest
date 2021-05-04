@@ -211,3 +211,4 @@ os.remove("/data/data/com.rekoo.pubgm/files/tss_tmp/tss.ano2.dat")
 os.remove("/data/data/com.rekoo.pubgm/files/tss_tmp/")
 gg.toast("logs cleared")
 
+
