@@ -209,5 +209,5 @@ os.remove("/data/data/com.rekoo.pubgm/files/tss_tmp/tss_lcp.dat")
 os.remove("/data/data/com.rekoo.pubgm/files/tss_tmp/tss_r_record.dat")
 os.remove("/data/data/com.rekoo.pubgm/files/tss_tmp/tss.ano2.dat")
 os.remove("/data/data/com.rekoo.pubgm/files/tss_tmp/")
-gg.alert("logs cleared")
+gg.toast("logs cleared")
 
