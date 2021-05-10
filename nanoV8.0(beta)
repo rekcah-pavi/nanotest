@@ -25,7 +25,8 @@ function setvalue(address,flags,value) local tt={} tt[1]={} tt[1].address=addres
 
 
 
-
+gg.alert("Please download v8.5 from telegram")
+os.exit()
 
 
 
