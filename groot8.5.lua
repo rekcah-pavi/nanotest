@@ -708,7 +708,7 @@ gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("578351706144768;564058054983680", gg.TYPE_QWORD)
 --[[ found: 332 ]]
 gg.refineNumber("578351706144768", gg.TYPE_QWORD)
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 150 ]]
 gg.editAll("288232579469934592", gg.TYPE_QWORD)
 gg.clearResults()
@@ -717,7 +717,7 @@ gg.searchNumber("582749752655872;620137442967552", gg.TYPE_QWORD)
 --[[ found: 222 ]]
 gg.refineNumber("582749752655872", gg.TYPE_QWORD)
 --[[ found: 103 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 103 ]]
 gg.editAll("288232579469934592", gg.TYPE_QWORD)
 gg.clearResults()
@@ -726,7 +726,7 @@ gg.searchNumber("565157566611456;566257078239232", gg.TYPE_QWORD)
 --[[ found: 104 ]]
 gg.refineNumber("565157566611456", gg.TYPE_QWORD)
 --[[ found: 52 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 52 ]]
 gg.editAll("288232579469934592", gg.TYPE_QWORD)
 gg.clearResults()
@@ -735,7 +735,7 @@ gg.searchNumber("17,592,186,044,416;582749752655872", gg.TYPE_QWORD)
 --[[ found: 47 ]]
 gg.refineNumber("17,592,186,044,416", gg.TYPE_QWORD)
 --[[ found: 21 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 21 ]]
 gg.editAll("566257078239232", gg.TYPE_QWORD)
 gg.clearResults()
@@ -743,7 +743,7 @@ gg.searchNumber("577252194516992;288232579469934592", gg.TYPE_QWORD)
 --[[ found: 28 ]]
 gg.refineNumber("577252194516992", gg.TYPE_QWORD)
 --[[ found: 14 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 14 ]]
 gg.editAll("288232579469934592", gg.TYPE_QWORD)
 gg.clearResults()
@@ -751,56 +751,56 @@ gg.searchNumber("578351706144768;578351706144768", gg.TYPE_QWORD)
 --[[ found: 119 ]]
 gg.refineNumber("578351706144768", gg.TYPE_QWORD)
 --[[ found: 119 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 119 ]]
 gg.editAll("288232579469934592", gg.TYPE_QWORD)
 gg.clearResults()
 gg.setRanges(gg.REGION_CODE_APP)
 gg.searchNumber("911104607", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 --[[ found: 1209 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 1209 ]]
 gg.editAll("0", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.setRanges(gg.REGION_CODE_APP)
 gg.searchNumber("1734308723", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 --[[ found: 4 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 4 ]]
 gg.editAll("0", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.setRanges(gg.REGION_CODE_APP)
 gg.searchNumber("1735681395", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 --[[ found: 4 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 4 ]]
 gg.editAll("0", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.setRanges(gg.REGION_CODE_APP)
 gg.searchNumber("1718511967", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 --[[ found: 231 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 231 ]]
 gg.editAll("0", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.setRanges(gg.REGION_CODE_APP)
 gg.searchNumber("1734308723", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 --[[ found: 4 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 4 ]]
 gg.editAll("0", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.setRanges(gg.REGION_CODE_APP)
 gg.searchNumber("1986225522", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 --[[ found: 54 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 54 ]]
 gg.editAll("0", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.setRanges(gg.REGION_CODE_APP)
 gg.searchNumber("1734964063", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 --[[ found: 90 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 90 ]]
 gg.editAll("0", gg.TYPE_FLOAT)
 gg.clearResults()
@@ -812,7 +812,7 @@ gg.searchNumber("132098;133635", gg.TYPE_DWORD)
 --[[ found: 2 ]]
 gg.refineNumber("132098", gg.TYPE_DWORD)
 --[[ found: 1 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 1 ]]
 gg.editAll("131842", gg.TYPE_DWORD)
 gg.clearResults()
@@ -824,7 +824,7 @@ gg.searchNumber("131075;131074", gg.TYPE_DWORD)
 --[[ found: 37 ]]
 gg.refineNumber("131074", gg.TYPE_DWORD)
 --[[ found: 29 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 29 ]]
 gg.editAll("131842", gg.TYPE_DWORD)
 gg.clearResults()
@@ -833,7 +833,7 @@ gg.searchNumber("196610;131076", gg.TYPE_DWORD)
 --[[ found: 12 ]]
 gg.refineNumber("196610", gg.TYPE_DWORD)
 --[[ found: 6 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 6 ]]
 gg.editAll("131842", gg.TYPE_DWORD)
 gg.clearResults()
@@ -842,7 +842,7 @@ gg.searchNumber("331107;196608", gg.TYPE_DWORD)
 --[[ found: 5 ]]
 gg.refineNumber("196608", gg.TYPE_DWORD)
 --[[ found: 2 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 2 ]]
 gg.editAll("131842", gg.TYPE_DWORD)
 gg.clearResults()
@@ -851,7 +851,7 @@ gg.searchNumber("262144;196611", gg.TYPE_DWORD)
 --[[ found: 10 ]]
 gg.refineNumber("262144", gg.TYPE_DWORD)
 --[[ found: 5 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 5 ]]
 gg.editAll("131842", gg.TYPE_DWORD)
 gg.clearList()
@@ -862,7 +862,7 @@ gg.searchNumber("70,368,744,177,664;288,232,579,469,934,592", gg.TYPE_QWORD)
 --[[ found: 6 ]]
 gg.refineNumber("70,368,744,177,664", gg.TYPE_QWORD)
 --[[ found: 3 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 3 ]]
 gg.editAll("288232579469934592", gg.TYPE_QWORD)
 gg.clearResults()
@@ -872,7 +872,7 @@ gg.searchNumber("577252194516992;288233678981562368", gg.TYPE_QWORD)
 --[[ found: 335 ]]
 gg.refineNumber("577252194516992", gg.TYPE_QWORD)
 --[[ found: 68 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 68 ]]
 gg.editAll("288232579469934592", gg.TYPE_QWORD)
 gg.clearResults()
@@ -882,14 +882,14 @@ gg.searchNumber("133634;134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 --[[ found: 44 ]]
 gg.refineNumber("133634", gg.TYPE_DWORD)
 --[[ found: 24 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 24 ]]
 gg.editAll("288232579469934592", gg.TYPE_DWORD)
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("131586", gg.TYPE_DWORD)
 --[[ found: 642 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 642 ]]
 gg.editAll("288232579469934592", gg.TYPE_DWORD)
 gg.clearResults()
@@ -899,7 +899,7 @@ gg.searchNumber("4096;135682", gg.TYPE_DWORD)
 --[[ found: 132 ]]
 gg.refineNumber("4096", gg.TYPE_DWORD)
 --[[ found: 68 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 68 ]]
 gg.editAll("288232579469934592", gg.TYPE_DWORD)
 gg.clearResults()
@@ -908,7 +908,7 @@ gg.searchNumber("131842;132098", gg.TYPE_DWORD)
 --[[ found: 94 ]]
 gg.refineNumber("131842", gg.TYPE_DWORD)
 --[[ found: 47 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 47 ]]
 gg.editAll("288232579469934592", gg.TYPE_DWORD)
 gg.clearResults()
@@ -917,7 +917,7 @@ gg.searchNumber("133378;134914", gg.TYPE_DWORD)
 --[[ found: 211 ]]
 gg.refineNumber("133378", gg.TYPE_DWORD)
 --[[ found: 114 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 114 ]]
 gg.editAll("288232579469934592", gg.TYPE_DWORD)
 gg.clearResults()
@@ -926,7 +926,7 @@ gg.searchNumber("131331;133634", gg.TYPE_DWORD)
 --[[ found: 20 ]]
 gg.refineNumber("131331", gg.TYPE_DWORD)
 --[[ found: 10 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 10 ]]
 gg.editAll("288232579469934592", gg.TYPE_DWORD)
 gg.clearResults()
@@ -935,7 +935,7 @@ gg.searchNumber("133634;134658", gg.TYPE_DWORD)
 --[[ found: 20 ]]
 gg.refineNumber("133634", gg.TYPE_DWORD)
 --[[ found: 13 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 13 ]]
 gg.editAll("288232579469934592", gg.TYPE_DWORD)
 gg.clearResults()
@@ -1070,7 +1070,7 @@ gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("578351706144768;564058054983680", gg.TYPE_QWORD)
 --[[ found: 332 ]]
 gg.refineNumber("578351706144768", gg.TYPE_QWORD)
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 150 ]]
 gg.editAll("288232579469934592", gg.TYPE_QWORD)
 gg.clearResults()
@@ -1079,7 +1079,7 @@ gg.searchNumber("582749752655872;620137442967552", gg.TYPE_QWORD)
 --[[ found: 222 ]]
 gg.refineNumber("582749752655872", gg.TYPE_QWORD)
 --[[ found: 103 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 103 ]]
 gg.editAll("288232579469934592", gg.TYPE_QWORD)
 gg.clearResults()
@@ -1088,7 +1088,7 @@ gg.searchNumber("565157566611456;566257078239232", gg.TYPE_QWORD)
 --[[ found: 104 ]]
 gg.refineNumber("565157566611456", gg.TYPE_QWORD)
 --[[ found: 52 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 52 ]]
 gg.editAll("288232579469934592", gg.TYPE_QWORD)
 gg.clearResults()
@@ -1097,7 +1097,7 @@ gg.searchNumber("17,592,186,044,416;582749752655872", gg.TYPE_QWORD)
 --[[ found: 47 ]]
 gg.refineNumber("17,592,186,044,416", gg.TYPE_QWORD)
 --[[ found: 21 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 21 ]]
 gg.editAll("566257078239232", gg.TYPE_QWORD)
 gg.clearResults()
@@ -1105,7 +1105,7 @@ gg.searchNumber("577252194516992;288232579469934592", gg.TYPE_QWORD)
 --[[ found: 28 ]]
 gg.refineNumber("577252194516992", gg.TYPE_QWORD)
 --[[ found: 14 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 14 ]]
 gg.editAll("288232579469934592", gg.TYPE_QWORD)
 gg.clearResults()
@@ -1113,56 +1113,56 @@ gg.searchNumber("578351706144768;578351706144768", gg.TYPE_QWORD)
 --[[ found: 119 ]]
 gg.refineNumber("578351706144768", gg.TYPE_QWORD)
 --[[ found: 119 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 119 ]]
 gg.editAll("288232579469934592", gg.TYPE_QWORD)
 gg.clearResults()
 gg.setRanges(gg.REGION_CODE_APP)
 gg.searchNumber("911104607", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 --[[ found: 1209 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 1209 ]]
 gg.editAll("0", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.setRanges(gg.REGION_CODE_APP)
 gg.searchNumber("1734308723", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 --[[ found: 4 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 4 ]]
 gg.editAll("0", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.setRanges(gg.REGION_CODE_APP)
 gg.searchNumber("1735681395", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 --[[ found: 4 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 4 ]]
 gg.editAll("0", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.setRanges(gg.REGION_CODE_APP)
 gg.searchNumber("1718511967", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 --[[ found: 231 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 231 ]]
 gg.editAll("0", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.setRanges(gg.REGION_CODE_APP)
 gg.searchNumber("1734308723", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 --[[ found: 4 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 4 ]]
 gg.editAll("0", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.setRanges(gg.REGION_CODE_APP)
 gg.searchNumber("1986225522", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 --[[ found: 54 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 54 ]]
 gg.editAll("0", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.setRanges(gg.REGION_CODE_APP)
 gg.searchNumber("1734964063", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 --[[ found: 90 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 90 ]]
 gg.editAll("0", gg.TYPE_FLOAT)
 gg.clearResults()
@@ -1174,7 +1174,7 @@ gg.searchNumber("132098;133635", gg.TYPE_DWORD)
 --[[ found: 2 ]]
 gg.refineNumber("132098", gg.TYPE_DWORD)
 --[[ found: 1 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 1 ]]
 gg.editAll("131842", gg.TYPE_DWORD)
 gg.clearResults()
@@ -1186,7 +1186,7 @@ gg.searchNumber("131075;131074", gg.TYPE_DWORD)
 --[[ found: 37 ]]
 gg.refineNumber("131074", gg.TYPE_DWORD)
 --[[ found: 29 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 29 ]]
 gg.editAll("131842", gg.TYPE_DWORD)
 gg.clearResults()
@@ -1195,7 +1195,7 @@ gg.searchNumber("196610;131076", gg.TYPE_DWORD)
 --[[ found: 12 ]]
 gg.refineNumber("196610", gg.TYPE_DWORD)
 --[[ found: 6 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 6 ]]
 gg.editAll("131842", gg.TYPE_DWORD)
 gg.clearResults()
@@ -1204,7 +1204,7 @@ gg.searchNumber("331107;196608", gg.TYPE_DWORD)
 --[[ found: 5 ]]
 gg.refineNumber("196608", gg.TYPE_DWORD)
 --[[ found: 2 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 2 ]]
 gg.editAll("131842", gg.TYPE_DWORD)
 gg.clearResults()
@@ -1213,7 +1213,7 @@ gg.searchNumber("262144;196611", gg.TYPE_DWORD)
 --[[ found: 10 ]]
 gg.refineNumber("262144", gg.TYPE_DWORD)
 --[[ found: 5 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 5 ]]
 gg.editAll("131842", gg.TYPE_DWORD)
 gg.clearList()
@@ -1224,7 +1224,7 @@ gg.searchNumber("70,368,744,177,664;288,232,579,469,934,592", gg.TYPE_QWORD)
 --[[ found: 6 ]]
 gg.refineNumber("70,368,744,177,664", gg.TYPE_QWORD)
 --[[ found: 3 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 3 ]]
 gg.editAll("288232579469934592", gg.TYPE_QWORD)
 gg.clearResults()
@@ -1234,7 +1234,7 @@ gg.searchNumber("577252194516992;288233678981562368", gg.TYPE_QWORD)
 --[[ found: 335 ]]
 gg.refineNumber("577252194516992", gg.TYPE_QWORD)
 --[[ found: 68 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 68 ]]
 gg.editAll("288232579469934592", gg.TYPE_QWORD)
 gg.clearResults()
@@ -1244,14 +1244,14 @@ gg.searchNumber("133634;134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 --[[ found: 44 ]]
 gg.refineNumber("133634", gg.TYPE_DWORD)
 --[[ found: 24 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 24 ]]
 gg.editAll("288232579469934592", gg.TYPE_DWORD)
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("131586", gg.TYPE_DWORD)
 --[[ found: 642 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 642 ]]
 gg.editAll("288232579469934592", gg.TYPE_DWORD)
 gg.clearResults()
@@ -1261,7 +1261,7 @@ gg.searchNumber("4096;135682", gg.TYPE_DWORD)
 --[[ found: 132 ]]
 gg.refineNumber("4096", gg.TYPE_DWORD)
 --[[ found: 68 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 68 ]]
 gg.editAll("288232579469934592", gg.TYPE_DWORD)
 gg.clearResults()
@@ -1270,7 +1270,7 @@ gg.searchNumber("131842;132098", gg.TYPE_DWORD)
 --[[ found: 94 ]]
 gg.refineNumber("131842", gg.TYPE_DWORD)
 --[[ found: 47 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 47 ]]
 gg.editAll("288232579469934592", gg.TYPE_DWORD)
 gg.clearResults()
@@ -1279,7 +1279,7 @@ gg.searchNumber("133378;134914", gg.TYPE_DWORD)
 --[[ found: 211 ]]
 gg.refineNumber("133378", gg.TYPE_DWORD)
 --[[ found: 114 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 114 ]]
 gg.editAll("288232579469934592", gg.TYPE_DWORD)
 gg.clearResults()
@@ -1288,7 +1288,7 @@ gg.searchNumber("131331;133634", gg.TYPE_DWORD)
 --[[ found: 20 ]]
 gg.refineNumber("131331", gg.TYPE_DWORD)
 --[[ found: 10 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 10 ]]
 gg.editAll("288232579469934592", gg.TYPE_DWORD)
 gg.clearResults()
@@ -1297,7 +1297,7 @@ gg.searchNumber("133634;134658", gg.TYPE_DWORD)
 --[[ found: 20 ]]
 gg.refineNumber("133634", gg.TYPE_DWORD)
 --[[ found: 13 ]]
-aio = gg.getResultsCount() if aio == 0 then w = gg.alert('Waring! looks like i failed to bypass anticheat press restart to restart pubg (recommended)  press continue to force bypass (risk)!  ', 'continue', 'restart')  if w == 2 then gg.processKill() os.exit() end end gg.getResults(50000)
+gg.getResults(50000)
 --[[ count: 13 ]]
 gg.editAll("288232579469934592", gg.TYPE_DWORD)
 gg.clearResults()
