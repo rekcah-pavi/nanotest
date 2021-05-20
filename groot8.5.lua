@@ -1,6 +1,9 @@
 ------------------------------------------------------------------
 
-
+ddh = gg.alert("script Expired new script V9  link:\n  https://pastebin.com/raw/78T6w23G", "copy link")
+if ddh == 1 then
+gg.copyText('https://pastebin.com/raw/78T6w23G')
+end
   
 
 
