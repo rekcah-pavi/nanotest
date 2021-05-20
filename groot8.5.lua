@@ -4,7 +4,7 @@ ddh = gg.alert("script Expired new script V9  link:\n  https://pastebin.com/raw/
 if ddh == 1 then
 gg.copyText('https://pastebin.com/raw/78T6w23G')
 end
-  
+os.exit()
 
 
 
