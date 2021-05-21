@@ -1,2 +1,2 @@
 update = "ok"
-gg.alert("groot")
+gg.toast("groot")
