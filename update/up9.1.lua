@@ -1,2 +1,2 @@
-update = "ok"
+--update = "ok"
 gg.toast("groot")
